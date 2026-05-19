@@ -19,3 +19,6 @@ MemoBoat SetUp Instructions
  
 7. Open your browser and go to:
    http://127.0.0.1:5000
+
+8. Demo Link:
+https://owlssouthernct-my.sharepoint.com/:v:/r/personal/chambersc7_southernct_edu/Documents/Recordings/Meeting%20with%20Chambers,%20Chelsea%20E.-20260518_171201-Meeting%20Recording.mp4?csf=1&web=1&e=YaQwBZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
