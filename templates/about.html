@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — MemoBoat</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+
+  <nav class="mb-nav">
+    <div class="mb-nav-inner">
+      <a href="{{ url_for('index') }}" class="mb-logo">Memo<span>Boat</span></a>
+      <div class="mb-nav-links">
+        <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('memos_page') }}">Saved Memos</a>
+        <a href="{{ url_for('about') }}" class="active">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mb-about-hero">
+    <div class="mb-about-hero-inner">
+      <span class="mb-overline" style="color: var(--rose);">About MemoBoat</span>
+      <h1>Built for people who<br><em>hate rewriting notes.</em></h1>
+      <p>MemoBoat is a full-stack web application that uses the OpenAI API to transform raw, unstructured meeting notes into clean, professional memos. Memos include a summary, action items, and key decisions.</p>
+    </div>
+  </div>
+
+  <div class="mb-about-body">
+    <div class="mb-about-section">
+      <h2>How It Works</h2>
+      <ul>
+        <li>Paste your raw meeting notes into the input panel on the home page</li>
+        <li>Select a meeting type to categorize your memo</li>
+        <li>Hit Generate Memo. The OpenAI API processes your notes and returns structured output</li>
+        <li>Review your summary, action items, and key decisions in the preview panel</li>
+        <li>Every memo is saved automatically to the database and accessible from the Saved Memos page</li>
+        <li>Download any memo as a text file</li>
+      </ul>
+    </div>
+
+    <div class="mb-about-section">
+      <h2>Tech Stack</h2>
+      <ul>
+        <li>Python &amp; Flask for the backend and routing</li>
+        <li>SQLite database with three related tables</li>
+        <li>Jinja2 templates for dynamic HTML rendering</li>
+        <li>OpenAI API for AI-powered memo generation</li>
+        <li>Bootstrap 5 for responsive layout</li>
+        <li>JavaScript for event handling</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer class="mb-footer">
+    <p>&copy; 2026 MemoBoat - CSC 235 Final Project - Chelsea Chambers</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
